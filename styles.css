@@ -103,8 +103,12 @@ section {
   display: grid;
   
 }
-.cardinside{
-  margin: 48px ;
+.cardinside h1{
+  /* margin: 48px ; */
+  font-weight: bold;
+  color: #0D1321;
+  width: 448;
+
  
 }
 
@@ -116,7 +120,7 @@ section {
   width: auto;
   height: auto;
   display: flex;
-  margin: 48px;
+  margin-bottom: 32px;
   justify-content: space-between;
   align-items: center;
   text-align: left;
@@ -125,6 +129,7 @@ section {
 .card img, .target img {
   width: 100px;
   height: 100px;
+  margin: auto;
 }
 
 .card-content, .target-content {
@@ -134,5 +139,17 @@ section {
 
 .card h3, .target h3 {
   margin: 10px 0;
+}
+
+.my-inspiration p{
+  font-size: 16;
+  color: #0D1321;
+  
+
+}
+
+.video iframe {
+  max-width: 100%;
+  height: auto;
 }
 
