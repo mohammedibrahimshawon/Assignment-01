@@ -77,3 +77,62 @@ section {
   padding: 50px 20px;
   text-align: center;
 }
+
+.web-development, .my-current-target, .my-next-target {
+  background: #f9f9f9;
+  margin: 80px 97px;
+  /* pad: 80px 97px; */
+  color: #050608;
+}
+.webdev{
+  
+
+}
+.web-contain{
+  margin: 80px 97px;
+}
+.web-image{
+  justify-content: space-between;
+  width: 240px;
+  height: 240;
+  margin: auto;
+  
+
+}
+.cards, .targets {
+  display: grid;
+  
+}
+.cardinside{
+  margin: 48px ;
+ 
+}
+
+.card, .target {
+  background: #fff;
+  padding: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 48px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.card img, .target img {
+  width: 100px;
+  height: 100px;
+}
+
+.card-content, .target-content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.card h3, .target h3 {
+  margin: 10px 0;
+}
+
