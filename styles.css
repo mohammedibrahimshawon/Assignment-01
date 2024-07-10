@@ -78,11 +78,12 @@ section {
   text-align: center;
 }
 
-.web-development, .my-current-target, .my-next-target {
+.web-development,  .my-next-target {
   background: #f9f9f9;
   margin: 80px 97px;
   /* pad: 80px 97px; */
   color: #050608;
+  margin-bottom:  48px;
 }
 .webdev{
   
@@ -112,7 +113,7 @@ section {
  
 }
 
-.card, .target {
+.card {
   background: #fff;
   padding: auto;
   border-radius: 10px;
@@ -143,7 +144,7 @@ section {
 
 .my-inspiration p{
   font-size: 16;
-  color: #0D1321;
+  color:rgba(255, 76, 30, 0.05);
   
 
 }
@@ -151,5 +152,125 @@ section {
 .video iframe {
   max-width: 100%;
   height: auto;
+}
+
+
+.targetmy{
+  padding:none ;
+  margin: auto;
+  padding: auto;
+  gap: 48px;
+ 
+
+}
+.target-container{
+  display: flex;
+  background: #f9f9f9;
+  margin: 80px 97px;
+  /* pad: 80px 97px; */
+  color: #050608;
+  gap: 32px;
+  padding: auto;
+  
+}
+.container-title{
+  font-size: large;
+  font-weight: bolder;
+  
+
+}
+p{
+  color: #0D1321;
+}
+.amialada{
+  color: white;
+}
+.link{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.container-1{
+  background-color:rgba(225, 46, 0, 0.05);  
+  width: 364px;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: left;
+  
+
+}
+.container-2{
+  background-color: #EBEBEB;  
+  width: 364px;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 40px;
+
+  text-align: left;
+
+}
+.container-3{
+  background-color:rgba(255, 223, 0, 0.05);  
+  width: 364px;
+  border-radius: 16px;
+  width: 364px;
+  gap: 32px;
+  padding: 40px;
+
+  text-align: left;
+
+
+}
+.mytarget{
+  margin: 80px 97px;
+}
+
+.target{
+  background: #fff;
+  gap: 32;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  box: shadow 2px;
+  /* border-width: 20px; */
+  padding: 40px;
+  
+  
+}
+.support form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.support{
+  background: url('assets/handshake.jpg') no-repeat center center/cover;
+  margin: 80px 97px;
+  color:white;
+  margin-bottom:  48px;;
+}
+
+
+.support input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.support button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
