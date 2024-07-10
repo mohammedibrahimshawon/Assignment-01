@@ -142,9 +142,10 @@ section {
   margin: 10px 0;
 }
 
-.my-inspiration p{
+.my-inspiration{
   font-size: 16;
-  color:rgba(255, 76, 30, 0.05);
+  /* color:rgba(2, 0, 0, 0.05); */
+
   
 
 }
@@ -224,7 +225,8 @@ p{
 
 }
 .mytarget{
-  margin: 80px 97px;
+  margin: 80px 97px 0px 97px;
+
 }
 
 .target{
@@ -244,10 +246,7 @@ p{
   padding: 40px;
   border: 1px solid black;
 }
-.targets{
-  /* border: 2px solid black; */
 
-}
 .support form {
   display: flex;
   justify-content: center;
