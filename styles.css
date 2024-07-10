@@ -1,13 +1,23 @@
-.azeret-mono{
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.azeret-mono-<uniquifier> {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
 body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+  
+}
+.title1{
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 header {
@@ -144,6 +154,7 @@ section {
 
 .my-inspiration{
   font-size: 16;
+  margin: 0;
   /* color:rgba(2, 0, 0, 0.05); */
 
   
@@ -258,7 +269,7 @@ p{
   background: url('assets/handshake.jpg') no-repeat center center/cover;
   margin: 80px 97px;
   color:white;
-  margin-bottom:  48px;;
+  margin-bottom:  48px;
   border-radius: 16px;
   
 }
